@@ -1,4 +1,6 @@
-# .
+# . 
+
+Learn from 'https://www.youtube.com/watch?v=hNPwdOZ3qFU'
 
 This template should help get you started developing with Vue 3 in Vite.
 
