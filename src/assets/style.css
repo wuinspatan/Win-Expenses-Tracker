@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background: linear-gradient(to bottom, #88dfe2e7, white);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,6 +39,17 @@ h3 {
 h4 {
   margin: 0;
   text-transform: uppercase;
+}
+
+#balance-box {
+  border: 2px solid #333;
+  padding: 14px;
+  width: 300px;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, skyblue, white);
+
 }
 
 .inc-exp-container {
@@ -149,4 +160,9 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+
+#header {
+  color: black;
+  font-family: "Press Start 2P", "consolas", "sans-serif";
 }
